@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keshav | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00e6e6;
+    }
+
+    header p {
+      opacity: 0.8;
+    }
+
+    section {
+      padding: 40px 10%;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      border-bottom: 2px solid #00e6e6;
+      display: inline-block;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.08);
+      padding: 20px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: rgba(255,255,255,0.15);
+    }
+
+    .card h3 {
+      color: #00e6e6;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #ffccff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Skills section */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: rgba(255,255,255,0.1);
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(0,0,0,0.5);
+      margin-top: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Keshav</h1>
+  <p>Web Developer | 1st Year B.Tech Student</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>I am a beginner web developer who enjoys building simple and clean websites using HTML and CSS.</p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">Basic JavaScript</div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="projects">
+
+    <div class="card">
+      <h3>Percentage Calculator</h3>
+      <p>Calculate average percentage easily.</p>
+      <a href="https://keshav9009-git.github.io/Percentage-calculator.html/" target="_blank">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>Multi Page Website</h3>
+      <p>Responsive multi-page HTML website.</p>
+      <a href="https://keshav9009-git.github.io/Multi-Page-HTML-Website/" target="_blank">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>Inquiry Form</h3>
+      <p>Simple form design project.</p>
+      <a href="https://keshav9009-git.github.io/Form.html/" target="_blank">View Project</a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: keshav_253256@saitm.ac.in</p>
+</section>
+
+<footer>
+  <p>© 2026 Keshav</p>
+</footer>
+
+</body>
+</html>
